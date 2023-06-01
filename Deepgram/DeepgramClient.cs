@@ -65,7 +65,7 @@ namespace Deepgram
             {
                 string possibleUri = Configuration.Instance.Settings["appSettings:Deepgram.Api.Uri"];
                 if (string.IsNullOrEmpty(possibleUri))
-                {
+                {   
                     apiUrl = "api.deepgram.com";
                 }
                 else

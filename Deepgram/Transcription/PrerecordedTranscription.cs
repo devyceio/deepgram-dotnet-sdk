@@ -17,6 +17,7 @@ namespace Deepgram.Transcription
         [JsonProperty("results")]
         public PrerecordedTranscriptionResult Results { get; set; } = null;
 
+
         public string ToWebVTT()
         {
             if (this.Results == null || this.Results.Utterances == null)

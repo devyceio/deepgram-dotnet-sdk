@@ -16,5 +16,11 @@ namespace Deepgram.Transcription
         /// </summary>
         [JsonProperty("utterances")]
         public Utterance[] Utterances { get; set; }
+
+        /// <summary>
+        /// Array of Utterance objects. 
+        /// </summary>
+        [JsonProperty("paragraphs")]
+        public ParagraphGroup Paragraphs { get; set; }
     }
 }
